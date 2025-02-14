@@ -11,5 +11,27 @@ according to marks:
 using namespace std;
 int main()
 {
-    cout << "Enter "
+    int m;
+    cout << "Enter percentage : ";
+    cin >> m;
+
+    if(m<=100 && m>= 81)
+    {
+        cout << "Result : Very Good ";
+    }
+
+    else if(m<=80 && m>= 61)
+    {
+        cout << "Result : Good ";
+    }
+
+    else if(m<=60 && m>= 41)
+    {
+        cout << "Result : Average ";
+    }
+
+    else
+    {
+        cout << "Result : Fail ";
+    }
 }

@@ -23,7 +23,7 @@ int main()
     else if(cp > sp)
     {
         cout << "Loss \n";
-        cout << "Loss is " < cp - sp;
+        cout << "Loss is " << cp - sp;
     }
     else
     {
