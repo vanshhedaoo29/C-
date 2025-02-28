@@ -14,11 +14,13 @@ int main()
     cout << "Enter Second No. : ";
     cin >> num2;
 
-    for(int i=0 ; i<n ; i++)
+    int i=1;
+    do 
     {
         num1 = num2;
         num2 = sum;
         sum = num1 + num2;
         cout << sum << " ";
-    }
+        i++;
+    }while(i<=n);
 }
